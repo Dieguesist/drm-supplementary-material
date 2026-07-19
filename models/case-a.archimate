@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Digital Risk Metamodel Case A" id="id-172ed2ba9812449da60fffdff6cf485d" version="5.0.0">
+  <folder name="Strategy" id="id-b3938c9244c74ceeaa28249824fd3908" type="strategy">
+    <element xsi:type="archimate:CourseOfAction" name="Access client information" id="id-400c73f0846a4b68a58fe40fe3c97ae0"/>
+    <element xsi:type="archimate:CourseOfAction" name="Alter Client Card safety code generation" id="id-cb0755c5722d4240a759acad2de37724"/>
+    <element xsi:type="archimate:CourseOfAction" name="Use encryption to achieve anonymity" id="id-cb54a36495394a1d9f278b582aa1ac58"/>
+    <element xsi:type="archimate:CourseOfAction" name="Utilize client balance and discounts for personal gain" id="id-30afa39b363d44ed9ec1a866bb6136a2"/>
+  </folder>
+  <folder name="Business" id="id-34828637b06a4549b28215c89cb99bf5" type="business">
+    <element xsi:type="archimate:BusinessProcess" name="Audit systems" id="id-9ad76609146d49daaa31cf0f437c8d8f"/>
+    <element xsi:type="archimate:BusinessRole" name="Audit team" id="id-c9c951b404b64ed2a103eb1429435d72"/>
+    <element xsi:type="archimate:BusinessProcess" name="Change Authentication" id="id-2b45151656ab44e7b2077210d7ba58da"/>
+    <element xsi:type="archimate:BusinessInterface" name="Client balance accessible via Portal" id="id-7c2c1c373de04544af3e59a35af6b73e"/>
+    <element xsi:type="archimate:BusinessCollaboration" name="Discount Service" id="id-adc9542ec8bb4c51b45d8db713e4c918"/>
+    <element xsi:type="archimate:BusinessRole" name="Discount Service Client balance" id="id-a02b523fe07b4784bf7340d8c8ccec4a"/>
+    <element xsi:type="archimate:BusinessRole" name="Discount Service Portal" id="id-15d08f9404174b8ea688e26503d945d6"/>
+    <element xsi:type="archimate:BusinessActor" name="Discount Service Portal Service" id="id-246df20875ac49659745126770429144"/>
+    <element xsi:type="archimate:BusinessRole" name="External Communications team" id="id-93fdb738ce344bf7971ba4a366ecebb1"/>
+    <element xsi:type="archimate:BusinessProcess" name="File police report" id="id-db3a422c380440779e63fcaaac569d7f"/>
+    <element xsi:type="archimate:BusinessActor" name="Hacker" id="id-e01a304e550247178c84be77da438491"/>
+    <element xsi:type="archimate:BusinessRole" name="IT safety team" id="id-5a4e3e15972f418f8ba8784366a2f840"/>
+    <element xsi:type="archimate:BusinessProcess" name="Insert Portal Service into Organizational Perimeter" id="id-d7cce71af6fc451bb4512710e6076f26"/>
+    <element xsi:type="archimate:BusinessRole" name="Legal team" id="id-7adeb15bb81d4d5181cfd1841fde6727"/>
+    <element xsi:type="archimate:BusinessProcess" name="Mitigate public backlash" id="id-d40d5438139a4d73b2d501a80032c2cc"/>
+    <element xsi:type="archimate:BusinessActor" name="Outsourced Discount Service Portal Entity" id="id-4b35d11985ee46518bec049691a6ad52"/>
+    <element xsi:type="archimate:BusinessRole" name="Product management team" id="id-62b470ddde3b432da608a2e219d8e5b8"/>
+    <element xsi:type="archimate:BusinessActor" name="Retail Multinational Organization" id="id-e7c19c52ae8447ffa9f3ed096963505f"/>
+    <element xsi:type="archimate:BusinessProcess" name="Risk Analysis" id="id-eaac1e225350432d9c71c8a810dd2ab5"/>
+    <element xsi:type="archimate:BusinessProcess" name="Risk Identification" id="id-cc4b8ef4fb0449d0aa4123545afe9bbf"/>
+    <element xsi:type="archimate:BusinessProcess" name="Risk Management Process" id="id-0f908b2319d04761bbb4fb81e4c9b926"/>
+    <element xsi:type="archimate:BusinessProcess" name="Risk Treatment" id="id-796b851c537840fb8fca7a512b5d947a"/>
+    <element xsi:type="archimate:BusinessProcess" name="Shut down Service" id="id-8ac675c677984a77808184da73a7f3be"/>
+    <element xsi:type="archimate:BusinessActor" name="Transversal risk management alignment committee" id="id-67e96d9a45964b02990de050bb430521"/>
+    <element xsi:type="archimate:BusinessProcess" name="Verify information leak" id="id-9bf2eeab88634cd3973fa1eb543af793"/>
+  </folder>
+  <folder name="Application" id="id-0de8ef168f7245468141d729c1ea5641" type="application">
+    <element xsi:type="archimate:ApplicationEvent" name="Authentication Method Modified" id="id-a0fa2529e6c34486aa5168e33b333efe"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Authentication protocol" id="id-957d0a5e2fc449949ea0beae1a3f549b"/>
+  </folder>
+  <folder name="Motivation" id="id-10fc0b07e32c48f687b65f08916fc601" type="motivation">
+    <element xsi:type="archimate:Requirement" name="Authentication fraud not possible" id="id-06dd5a7d85834363a9333048c00fbd6a"/>
+    <element xsi:type="archimate:Driver" name="Breach of Client information privacy laws (Compliance Risk)" id="id-3e47cf1535aa4bae942b985b82ffb5e2"/>
+    <element xsi:type="archimate:Goal" name="Breach private data" id="id-29a35535eb694ec7ac76e28454634910"/>
+    <element xsi:type="archimate:Driver" name="Client Card safety code generation uses public algorithm" id="id-80e13f75df064b2ba9bd20f48ca13bc0"/>
+    <element xsi:type="archimate:Driver" name="Data breach (Information Risk)" id="id-4079bbbefb4c402298dd5f3724dbdc26"/>
+    <element xsi:type="archimate:Outcome" name="Financial restitutions for theft" id="id-950b936ebcc94bcbb1892cc792634a21"/>
+    <element xsi:type="archimate:Goal" name="Identity theft" id="id-023b36b8b729488fa5f3002c3043433a"/>
+    <element xsi:type="archimate:Goal" name="Increase customer engagement and satisfaction" id="id-a55ae769837e4f34b80cc851b481c43e"/>
+    <element xsi:type="archimate:Driver" name="Loss of Client trust (Reputation Risk)" id="id-eccd84fad88f4447aaf7f14f4152396d"/>
+    <element xsi:type="archimate:Outcome" name="Loss of organizational reputation" id="id-141d7c4d02e6485da2d75b19b29ea259"/>
+    <element xsi:type="archimate:Outcome" name="Loss of service credibility" id="id-6afbdb180a6d43b2af7f3b3dcd50c0e9"/>
+    <element xsi:type="archimate:Driver" name="Lower Implementation costs (Financial Risk)" id="id-4cf9652256404544a38304e097380d71"/>
+    <element xsi:type="archimate:Driver" name="Lower Maintenance costs (Financial Risk)" id="id-b71a12e3a87e4f09a3a11b3067f91685"/>
+    <element xsi:type="archimate:Goal" name="Make advantageous purchases via Discount Service" id="id-9221d145b5364bed926820c7e543b764"/>
+    <element xsi:type="archimate:Requirement" name="Masked document number in portal" id="id-f61c30f708b7440bb4208b49e13f345c"/>
+    <element xsi:type="archimate:Driver" name="Misappropriation of Financial Assets (Financial Risk)" id="id-4848f82d895f449da679e4d9358ee879"/>
+    <element xsi:type="archimate:Goal" name="Misappropriate financial resources" id="id-52e1cbb1012648fa859194ff6737d519"/>
+    <element xsi:type="archimate:Driver" name="No need for internal capability assurance (People Risk)" id="id-b1497c69e9984489a350f2d91eb0ea90"/>
+    <element xsi:type="archimate:Driver" name="Physical Cards can be replicated" id="id-559fa327bfe044379bab34459b150a08"/>
+    <element xsi:type="archimate:Driver" name="Poorly implemented client card authentication" id="id-ed3b86ec7a7e4b1da5fde2b027a62f71"/>
+    <element xsi:type="archimate:Driver" name="Portal allows Client Card access" id="id-4a1258c678324cf6a85b9b91ab36b46e"/>
+    <element xsi:type="archimate:Requirement" name="Safety PIN for client access" id="id-b4bc5431e7ab4c52b6ba898939890591"/>
+    <element xsi:type="archimate:Driver" name="Safety code generation can be manipulated" id="id-056501d347054d1d9cc65e6f86168007"/>
+    <element xsi:type="archimate:Driver" name="Service Provider implementation failure (Third Party Risk)" id="id-9910290fa97a4adbbe7cb4ee29174f6d"/>
+    <element xsi:type="archimate:Driver" name="Specialized Development Service (Third Party Risk)" id="id-ee2d690b978347bfb4eacfdb972392d7"/>
+    <element xsi:type="archimate:Driver" name="Third Party Provider for Client Account Management Service (Third Party Risk)" id="id-425132f825234af4aa8f785ff9761a9b"/>
+  </folder>
+  <folder name="Relations" id="id-dc2705b81e744bdb86ee4c5bcc69a9a4" type="relations">
+    <element xsi:type="archimate:ServingRelationship" id="id-c4d9138dfdeb46f1bc76b2c1079126fa" source="id-4b35d11985ee46518bec049691a6ad52" target="id-e7c19c52ae8447ffa9f3ed096963505f"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-d0afba796ef64eae8b76ae760d3756ea" source="id-15d08f9404174b8ea688e26503d945d6" target="id-7c2c1c373de04544af3e59a35af6b73e"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-f50d0c8e27b14db792590a0fc0baa024" source="id-a02b523fe07b4784bf7340d8c8ccec4a" target="id-7c2c1c373de04544af3e59a35af6b73e"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-c00fba17a5a94e6d8385de7f40b3b2b8" source="id-7c2c1c373de04544af3e59a35af6b73e" target="id-adc9542ec8bb4c51b45d8db713e4c918"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-4956185854714a809e29f9fa6a2601fb" source="id-ee2d690b978347bfb4eacfdb972392d7" target="id-9910290fa97a4adbbe7cb4ee29174f6d"/>
+  </folder>
+  <folder name="Views" id="id-f68d60d1c1cf4cb0910c9e7ae152a0c6" type="diagrams">
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Case A Organizational Perimeter" id="id-a0976f560fe644428b0c647eae059211">
+        <child xsi:type="archimate:Group" id="id-85b4c38f39c44462aeebc7c0b0a2821d" name="Organizational Perimeter">
+          <bounds x="20" y="20" width="258" height="216"/>
+          <child xsi:type="archimate:DiagramObject" id="id-9aeefe83bc584835b4bcd01fdb6e7620" targetConnections="id-a1b559e8d6cc458e910a966d5000a0f7" archimateElement="id-e7c19c52ae8447ffa9f3ed096963505f">
+            <bounds x="12" y="32" width="234" height="110"/>
+            <child xsi:type="archimate:DiagramObject" id="id-ef4e808e9cdd4087ae6c864fb5aebb37" archimateElement="id-67e96d9a45964b02990de050bb430521">
+              <bounds x="12" y="32" width="210" height="66"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-db8a119bc9144525a48944b1ccea0a5d" archimateElement="id-4b35d11985ee46518bec049691a6ad52">
+            <bounds x="12" y="154" width="210" height="50"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-a1b559e8d6cc458e910a966d5000a0f7" source="id-db8a119bc9144525a48944b1ccea0a5d" target="id-9aeefe83bc584835b4bcd01fdb6e7620" archimateRelationship="id-c4d9138dfdeb46f1bc76b2c1079126fa"/>
+          </child>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Case A Asset Landscape" id="id-4ccbebae621946559641b1552a1172be">
+        <child xsi:type="archimate:Group" id="id-4b0a675c4f614353b3a4dd1aa8712509" name="Asset landscape">
+          <bounds x="20" y="20" width="528" height="260"/>
+          <child xsi:type="archimate:DiagramObject" id="id-f040f98443de4e809b263e8f38abd858" targetConnections="id-8dd06adea64d479186aec44379cf265f" archimateElement="id-adc9542ec8bb4c51b45d8db713e4c918">
+            <bounds x="12" y="32" width="504" height="154"/>
+            <child xsi:type="archimate:DiagramObject" id="id-033401948e594e69905da47cd9e00da6" archimateElement="id-15d08f9404174b8ea688e26503d945d6">
+              <bounds x="12" y="32" width="234" height="110"/>
+              <child xsi:type="archimate:DiagramObject" id="id-db5eb99bafae44299bff3f22a4d2c67d" archimateElement="id-a55ae769837e4f34b80cc851b481c43e">
+                <bounds x="12" y="32" width="210" height="66"/>
+              </child>
+              <sourceConnection xsi:type="archimate:Connection" id="id-6c587b81f1da48099c992b3f6d9483ff" source="id-033401948e594e69905da47cd9e00da6" target="id-5476c685db90458d904d31cb1b4fa665" archimateRelationship="id-d0afba796ef64eae8b76ae760d3756ea"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-ca53b97b005e43758771488c8568362f" archimateElement="id-a02b523fe07b4784bf7340d8c8ccec4a">
+              <bounds x="258" y="32" width="234" height="110"/>
+              <child xsi:type="archimate:DiagramObject" id="id-59a17c2490a944bcb79b3aae01b5886c" archimateElement="id-9221d145b5364bed926820c7e543b764">
+                <bounds x="12" y="32" width="210" height="66"/>
+              </child>
+              <sourceConnection xsi:type="archimate:Connection" id="id-1b4364613122413c92c175e0ffc8f256" source="id-ca53b97b005e43758771488c8568362f" target="id-5476c685db90458d904d31cb1b4fa665" archimateRelationship="id-f50d0c8e27b14db792590a0fc0baa024"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-5476c685db90458d904d31cb1b4fa665" targetConnections="id-6c587b81f1da48099c992b3f6d9483ff id-1b4364613122413c92c175e0ffc8f256" archimateElement="id-7c2c1c373de04544af3e59a35af6b73e">
+            <bounds x="12" y="198" width="210" height="50"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-8dd06adea64d479186aec44379cf265f" source="id-5476c685db90458d904d31cb1b4fa665" target="id-f040f98443de4e809b263e8f38abd858" archimateRelationship="id-c00fba17a5a94e6d8385de7f40b3b2b8"/>
+          </child>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Case A Threat, Threat Agent and Threat Vector" id="id-a78aa755232c461d99e022af37b6b55c">
+        <child xsi:type="archimate:Group" id="id-8af9c99b41b84427acc8c052bd09f1ad" name="Threat Agent">
+          <bounds x="20" y="20" width="234" height="90"/>
+          <child xsi:type="archimate:DiagramObject" id="id-714d8184d5904960983472f3b92d215e" archimateElement="id-e01a304e550247178c84be77da438491">
+            <bounds x="12" y="32" width="210" height="46"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-71430bb6cf8b4aeaa47a81d1531ec6ee" name="Threat">
+          <bounds x="20" y="140" width="234" height="210"/>
+          <child xsi:type="archimate:DiagramObject" id="id-839a03ef452f4657839677ddba209bd1" archimateElement="id-023b36b8b729488fa5f3002c3043433a">
+            <bounds x="12" y="32" width="210" height="46"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-02b074f248f449148ea5da303ed579a5" archimateElement="id-29a35535eb694ec7ac76e28454634910">
+            <bounds x="12" y="90" width="210" height="46"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-89508d5cbb58416fa8c38c344dc8db62" archimateElement="id-52e1cbb1012648fa859194ff6737d519">
+            <bounds x="12" y="148" width="210" height="50"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-004e1adce7e84d83870a36c32746bb22" name="Threat Vector">
+          <bounds x="294" y="20" width="234" height="296"/>
+          <child xsi:type="archimate:DiagramObject" id="id-a15c3ad1fb3e450e9ca3e3fc7969ab31" archimateElement="id-cb54a36495394a1d9f278b582aa1ac58">
+            <bounds x="12" y="32" width="210" height="50"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-022642c0a5fb43b58676b6e3ebace15a" archimateElement="id-cb0755c5722d4240a759acad2de37724">
+            <bounds x="12" y="94" width="210" height="50"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-ddad76784a9e42ceb6a8a8bb2cce8ad0" archimateElement="id-400c73f0846a4b68a58fe40fe3c97ae0">
+            <bounds x="12" y="156" width="210" height="50"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-d774fc6406d340ed87cb44eaea47936d" archimateElement="id-30afa39b363d44ed9ec1a866bb6136a2">
+            <bounds x="12" y="218" width="210" height="66"/>
+          </child>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Case A Vulnerability" id="id-c547ae5f20db4e9eb7c0a10b349e8aca">
+        <child xsi:type="archimate:Group" id="id-aeea534eda334351b25937dbadc0fe98" name="Vulnerability">
+          <bounds x="20" y="20" width="258" height="356"/>
+          <child xsi:type="archimate:DiagramObject" id="id-c060a2af84434cc2a6b1437abaf0c68f" archimateElement="id-ed3b86ec7a7e4b1da5fde2b027a62f71">
+            <bounds x="12" y="32" width="234" height="312"/>
+            <child xsi:type="archimate:DiagramObject" id="id-f48bbbaee0594dca8da5ed4496a40554" archimateElement="id-4a1258c678324cf6a85b9b91ab36b46e">
+              <bounds x="12" y="48" width="210" height="50"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-a8f2aa97b2ad4391bcfeaaff788563c3" archimateElement="id-80e13f75df064b2ba9bd20f48ca13bc0">
+              <bounds x="12" y="110" width="210" height="66"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-1a4923e16ee34ca48fe0bef59f71ee4c" archimateElement="id-056501d347054d1d9cc65e6f86168007">
+              <bounds x="12" y="188" width="210" height="50"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-988e7fa50cc74c95aa1f7177eb1731cc" archimateElement="id-559fa327bfe044379bab34459b150a08">
+              <bounds x="12" y="250" width="210" height="50"/>
+            </child>
+          </child>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Case A Risk and Risk Consequence Chain" id="id-0c43ae052fd04b85adb1d4a1beb8fb7e">
+        <child xsi:type="archimate:Group" id="id-5dc465e2e2f94471a92f3ca6a446267c" name="Risk">
+          <bounds x="20" y="20" width="552" height="414"/>
+          <child xsi:type="archimate:DiagramObject" id="id-834a4a75eaf44d52aa8c7e51a4d047d4" archimateElement="id-425132f825234af4aa8f785ff9761a9b">
+            <bounds x="12" y="32" width="528" height="370"/>
+            <child xsi:type="archimate:DiagramObject" id="id-d1528606de0f4c98bb59cd059260af07" archimateElement="id-ee2d690b978347bfb4eacfdb972392d7">
+              <bounds x="12" y="48" width="234" height="250"/>
+              <child xsi:type="archimate:DiagramObject" id="id-153058c79eaa401eb4f47385de7d659c" archimateElement="id-4cf9652256404544a38304e097380d71">
+                <bounds x="12" y="48" width="210" height="50"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-30df88c699cf4abb9e65480a02322689" archimateElement="id-b71a12e3a87e4f09a3a11b3067f91685">
+                <bounds x="12" y="110" width="210" height="50"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-5b6de1ab998643748fb78a46fd580a6f" archimateElement="id-b1497c69e9984489a350f2d91eb0ea90">
+                <bounds x="12" y="172" width="210" height="66"/>
+              </child>
+              <sourceConnection xsi:type="archimate:Connection" id="id-e128facd751f4911b4970305547028db" source="id-d1528606de0f4c98bb59cd059260af07" target="id-8486ad03772246d6ac22dee095937dfe" archimateRelationship="id-4956185854714a809e29f9fa6a2601fb"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-8486ad03772246d6ac22dee095937dfe" targetConnections="id-e128facd751f4911b4970305547028db" archimateElement="id-9910290fa97a4adbbe7cb4ee29174f6d">
+              <bounds x="258" y="48" width="258" height="310"/>
+              <child xsi:type="archimate:DiagramObject" id="id-871f91c5f48d4786a255411f32bff8f3" archimateElement="id-4079bbbefb4c402298dd5f3724dbdc26">
+                <bounds x="12" y="48" width="234" height="250"/>
+                <child xsi:type="archimate:DiagramObject" id="id-1755475de34f4a3aa1d2edf862435036" archimateElement="id-4848f82d895f449da679e4d9358ee879">
+                  <bounds x="12" y="32" width="210" height="66"/>
+                </child>
+                <child xsi:type="archimate:DiagramObject" id="id-25c37fccbf2040da95cc1db0864d17e2" archimateElement="id-eccd84fad88f4447aaf7f14f4152396d">
+                  <bounds x="12" y="110" width="210" height="50"/>
+                </child>
+                <child xsi:type="archimate:DiagramObject" id="id-a9f806dd4f8d4481becbdaf8a100b396" archimateElement="id-3e47cf1535aa4bae942b985b82ffb5e2">
+                  <bounds x="12" y="172" width="210" height="66"/>
+                </child>
+              </child>
+            </child>
+          </child>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Case A Consequence, Risk Source and Risk Event" id="id-b48ade188cbb436a94837bbd5a77cb95">
+        <child xsi:type="archimate:Group" id="id-b0486acf444641eca4e14e2e1faa7af3" name="Consequence">
+          <bounds x="20" y="20" width="234" height="218"/>
+          <child xsi:type="archimate:DiagramObject" id="id-4b2b0768e7884e3587b840b7211b6433" archimateElement="id-141d7c4d02e6485da2d75b19b29ea259">
+            <bounds x="12" y="32" width="210" height="50"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-0c1ee5b6a2a449d0b95c0bf43c0ad954" archimateElement="id-6afbdb180a6d43b2af7f3b3dcd50c0e9">
+            <bounds x="12" y="94" width="210" height="50"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-6f871bb955dc4480b34421fcfcd1eab8" archimateElement="id-950b936ebcc94bcbb1892cc792634a21">
+            <bounds x="12" y="156" width="210" height="50"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-5d2b133c9d894c559245cbe9bcf2ce6d" name="Risk Source">
+          <bounds x="20" y="268" width="234" height="94"/>
+          <child xsi:type="archimate:DiagramObject" id="id-81c0986ccfe949ff8ba360b6a1846e48" archimateElement="id-957d0a5e2fc449949ea0beae1a3f549b">
+            <bounds x="12" y="32" width="210" height="50"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-346f2b6e174e49dbb8b4277cf6955f1a" name="Risk Event">
+          <bounds x="20" y="392" width="234" height="94"/>
+          <child xsi:type="archimate:DiagramObject" id="id-2a8f5d4403d44f1fa0703bcfe0b9544d" archimateElement="id-a0fa2529e6c34486aa5168e33b333efe">
+            <bounds x="12" y="32" width="210" height="50"/>
+          </child>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Case A Risk Owner and RM Process" id="id-50104dac6b994c61abb67e03d7c506d2">
+        <child xsi:type="archimate:Group" id="id-d09f8f0dc6df4125bbb21e6fe0fb98e5" name="Risk Owner">
+          <bounds x="20" y="20" width="234" height="330"/>
+          <child xsi:type="archimate:DiagramObject" id="id-e8144e52fcdc49fb877d33492f4576bb" archimateElement="id-5a4e3e15972f418f8ba8784366a2f840">
+            <bounds x="12" y="32" width="210" height="46"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-c26bdc9e7db24ae0b99ff4abf7a855d8" archimateElement="id-93fdb738ce344bf7971ba4a366ecebb1">
+            <bounds x="12" y="90" width="210" height="50"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-e7fb94e5241b4edaa1eb0f32431d03f1" archimateElement="id-7adeb15bb81d4d5181cfd1841fde6727">
+            <bounds x="12" y="152" width="210" height="46"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-f0719cda1765401d89fcfef2ac221889" archimateElement="id-c9c951b404b64ed2a103eb1429435d72">
+            <bounds x="12" y="210" width="210" height="46"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-61c8e5bd67324264b5b9414becda1459" archimateElement="id-62b470ddde3b432da608a2e219d8e5b8">
+            <bounds x="12" y="268" width="210" height="50"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-f0044481300c4d31b6e86297079bd428" name="Risk Management">
+          <bounds x="294" y="20" width="282" height="656"/>
+          <child xsi:type="archimate:DiagramObject" id="id-b27a64681e6c43cab4bf6170674cbfe9" archimateElement="id-0f908b2319d04761bbb4fb81e4c9b926">
+            <bounds x="12" y="32" width="258" height="612"/>
+            <child xsi:type="archimate:DiagramObject" id="id-5a63088ae99047d290b70d7f9a7bf5c2" archimateElement="id-cc4b8ef4fb0449d0aa4123545afe9bbf">
+              <bounds x="12" y="32" width="210" height="46"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-06180e96cf244609be60e8cde29ba22a" archimateElement="id-eaac1e225350432d9c71c8a810dd2ab5">
+              <bounds x="12" y="90" width="234" height="94"/>
+              <child xsi:type="archimate:DiagramObject" id="id-6b7e3d8cf93f42db948e4f65237a4bad" archimateElement="id-9bf2eeab88634cd3973fa1eb543af793">
+                <bounds x="12" y="32" width="210" height="50"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-9fa20eb124424232a2f209fdbab3c463" archimateElement="id-796b851c537840fb8fca7a512b5d947a">
+              <bounds x="12" y="196" width="234" height="404"/>
+              <child xsi:type="archimate:DiagramObject" id="id-946610839a1b433ba8dd5e234048b28a" archimateElement="id-8ac675c677984a77808184da73a7f3be">
+                <bounds x="12" y="32" width="210" height="46"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-4e8cc0219a4840efb49ee4eea0e52bad" archimateElement="id-2b45151656ab44e7b2077210d7ba58da">
+                <bounds x="12" y="90" width="210" height="46"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-6ffff318bec44afc9cc85e9e07237ae6" archimateElement="id-d7cce71af6fc451bb4512710e6076f26">
+                <bounds x="12" y="148" width="210" height="66"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-3e1a39bfad114c6888286ebda95a5689" archimateElement="id-d40d5438139a4d73b2d501a80032c2cc">
+                <bounds x="12" y="226" width="210" height="50"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-86748787eae745de8a63fdc32f141e75" archimateElement="id-db3a422c380440779e63fcaaac569d7f">
+                <bounds x="12" y="288" width="210" height="46"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-e4bb8d89c5264d97bca4fb904c57e6e5" archimateElement="id-9ad76609146d49daaa31cf0f437c8d8f">
+                <bounds x="12" y="346" width="210" height="46"/>
+              </child>
+            </child>
+          </child>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Case A Post-Incident Treatments" id="id-bed81bb97fc246aaa0cd38c4d6dc6e7b">
+        <child xsi:type="archimate:Group" id="id-43ca6763848f4c72ae73e74ff0a58e55" name="Post-incident changes">
+          <bounds x="20" y="20" width="282" height="472"/>
+          <child xsi:type="archimate:Group" id="id-5628634ba1644e6f9f68af32bb2c9ebe" name="Control Requirement">
+            <bounds x="12" y="32" width="258" height="200"/>
+            <child xsi:type="archimate:DiagramObject" id="id-053ec6e6d3bb46b7a11ee511c4e93a3c" archimateElement="id-06dd5a7d85834363a9333048c00fbd6a">
+              <bounds x="12" y="32" width="234" height="156"/>
+              <child xsi:type="archimate:DiagramObject" id="id-48387f5d12b349f28d2bf501d3e0cb62" archimateElement="id-b4bc5431e7ab4c52b6ba898939890591">
+                <bounds x="12" y="32" width="210" height="50"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-cb991cc9ac1547ee88a4bf30fa43e55c" archimateElement="id-f61c30f708b7440bb4208b49e13f345c">
+                <bounds x="12" y="94" width="210" height="50"/>
+              </child>
+            </child>
+          </child>
+          <child xsi:type="archimate:Group" id="id-5e01e7c4afe64b39a732d8f8c441881f" name="Organizational Perimeter">
+            <bounds x="12" y="244" width="258" height="216"/>
+            <child xsi:type="archimate:DiagramObject" id="id-901f7ce649db43828780b1986be1e74c" archimateElement="id-e7c19c52ae8447ffa9f3ed096963505f">
+              <bounds x="12" y="32" width="234" height="172"/>
+              <child xsi:type="archimate:DiagramObject" id="id-ab796e3f0bb44112a189450f067868d9" archimateElement="id-67e96d9a45964b02990de050bb430521">
+                <bounds x="12" y="32" width="210" height="66"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-eb1131456ae1481d856badd6241773c4" archimateElement="id-246df20875ac49659745126770429144">
+                <bounds x="12" y="110" width="210" height="50"/>
+              </child>
+            </child>
+          </child>
+        </child>
+      </element>
+  </folder>
+</archimate:model>
