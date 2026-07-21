@@ -38,5 +38,5 @@ The expert evaluation involved 23 professionals (28 invited, response rate appro
 
 ## Case material
 
-The two case instantiations are derived from interviews with the cybersecurity and data protection officer of a European retail organization. They are provided as rendered high-resolution views in `/figures` rather than as model sources: the instantiations derive from case material covered by a confidentiality agreement, and the rendered views correspond exactly to the figures in the manuscript. Incident-level documentation from the case organization is not included for the same reason.
+The two case instantiations are derived from an interview with the cybersecurity and data protection officer of a European retail organization. They are provided as rendered high-resolution views in `/figures` rather than as model sources: the instantiations derive from case material covered by a confidentiality agreement, and the rendered views correspond exactly to the figures in the manuscript. Incident-level documentation from the case organization is not included for the same reason.
 
