@@ -4,19 +4,15 @@
   <elements>
     <element identifier="id-c8cdbfb469b649d39257c05dd15ea73c" xsi:type="Capability">
       <name xml:lang="en">Strategic Direction Assessment</name>
-      <documentation xml:lang="en">Indicates the organization's ability to reassess and adapt its direction.</documentation>
     </element>
     <element identifier="id-1b6132a02b0943cfac7d49087ff8d711" xsi:type="CourseOfAction">
       <name xml:lang="en">Digital Transformation Strategy</name>
-      <documentation xml:lang="en">If seen as a structured initiative, Course of Action. If seen as an ability of the organization, Capability.</documentation>
     </element>
     <element identifier="id-0de2ac2f4f8c4b51a65a0f613e1cd9a6" xsi:type="BusinessActor">
       <name xml:lang="en">Organization</name>
-      <documentation xml:lang="en">Represents the enterprise or company.</documentation>
     </element>
     <element identifier="id-2c009afe05194b15bbef1a40757e3a87" xsi:type="BusinessProcess">
       <name xml:lang="en">Digital Transformation Process</name>
-      <documentation xml:lang="en">Reconfiguring Offerings &amp; Value Propositions. Represents an internal operational change to business offerings.</documentation>
     </element>
     <element identifier="id-ba265376e7fc4c0786c35eb3ded2b6b1" xsi:type="BusinessEvent">
       <name xml:lang="en">Digital Transformation</name>
@@ -68,11 +64,9 @@
     </element>
     <element identifier="id-cb2f29ea49de46ddac040e183e5d81ab" xsi:type="Driver">
       <name xml:lang="en">Business Opportunities</name>
-      <documentation xml:lang="en">If seen as an internal trigger, it can be a Business Event. If seen as an external influencing factor, it can be a Driver.</documentation>
     </element>
     <element identifier="id-f69d0e06d008468fa7794e434e27f1f5" xsi:type="Assessment">
       <name xml:lang="en">Current Business Risks</name>
-      <documentation xml:lang="en">Risks can be modeled as an Assessment entity, influencing strategy.</documentation>
     </element>
     <element identifier="id-02174570f02c4fc187869062363a55fe" xsi:type="Stakeholder">
       <name xml:lang="en">Stakeholder</name>
@@ -82,7 +76,6 @@
     </element>
     <element identifier="id-fc51be61457d445b96ddcc8e751aefbb" xsi:type="Value">
       <name xml:lang="en">Current Value Proposition</name>
-      <documentation xml:lang="en">The relative worth, utility, or importance of a core element or an outcome.</documentation>
     </element>
     <element identifier="id-7fe9393fd3814b40856e4a47bdbad665" xsi:type="Value">
       <name xml:lang="en">Resulting Value Proposition</name>
@@ -92,25 +85,21 @@
     </element>
     <element identifier="id-d5991fe9342b47ce8b6b607fa0bdadda" xsi:type="Assessment">
       <name xml:lang="en">Resulting Business Risk</name>
-      <documentation xml:lang="en">it’s the result of analyzing the situation and identifying risk</documentation>
     </element>
     <element identifier="id-09e46cf151604775ad603c4f6132b1a7" xsi:type="Driver">
       <name xml:lang="en">Culture</name>
     </element>
     <element identifier="id-373d2f2b2eec48f6a17502bafad60722" xsi:type="Stakeholder">
       <name xml:lang="en">Top Management</name>
-      <documentation xml:lang="en">If you want to show why they influence goals, keep them as Stakeholders in the Motivation layer.</documentation>
     </element>
     <element identifier="id-9652125129154bc8be44001bd84915ee" xsi:type="Stakeholder">
       <name xml:lang="en">Dedicated Risk Management</name>
-      <documentation xml:lang="en">If you want to show why they influence goals, keep them as Stakeholders in the Motivation layer.</documentation>
     </element>
     <element identifier="id-989af4b98a3a452db787803a8109562f" xsi:type="Requirement">
       <name xml:lang="en">Stakeholder Needs</name>
     </element>
     <element identifier="id-7576df9cb10f4491a4639d0e70468760" xsi:type="Outcome">
       <name xml:lang="en">Current Organization's Offering</name>
-      <documentation xml:lang="en">In Motivation terms, these might be Outcomes if you want to show them as end results (“We have an existing offering” vs. “We aim for a digital offering”).</documentation>
     </element>
     <element identifier="id-289d9c6250d043659ddd0bf5879130a9" xsi:type="Outcome">
       <name xml:lang="en">Digital Organization's Offering</name>
@@ -333,8 +322,6 @@
     <diagrams>
       <view identifier="id-d7523cc6d1d44ac3864a6e03142d6230" xsi:type="Diagram">
         <name xml:lang="en">DRM V2 (main view)</name>
-        <documentation xml:lang="en">O stakeholder identifca necessidades de negocio e define metas para a organização
-Uma estrategia para atingir o ojbectivo pode passar por uma DT</documentation>
         <node identifier="id-cd1117a663e44a54b83be1a7cc51833d" elementRef="id-0de2ac2f4f8c4b51a65a0f613e1cd9a6" xsi:type="Element" x="407" y="585" w="144" h="43">
           <style>
             <fillColor r="255" g="255" b="181" a="100" />
