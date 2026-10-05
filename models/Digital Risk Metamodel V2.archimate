@@ -2,18 +2,14 @@
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Digital Risk Metamodel V2" id="id-3dd82b1696144db68e3472c4b13d0aed" version="5.0.0">
   <folder name="Strategy" id="id-64051ff9556b44e2a5e281f1a91803c4" type="strategy">
     <element xsi:type="archimate:Capability" name="Strategic Direction Assessment" id="id-c8cdbfb469b649d39257c05dd15ea73c">
-      <documentation>Indicates the organization's ability to reassess and adapt its direction.</documentation>
     </element>
     <element xsi:type="archimate:CourseOfAction" name="Digital Transformation Strategy" id="id-1b6132a02b0943cfac7d49087ff8d711">
-      <documentation>If seen as a structured initiative, Course of Action. If seen as an ability of the organization, Capability.</documentation>
     </element>
   </folder>
   <folder name="Business" id="id-abd4a5007a0a4ab286103ae91ad8e416" type="business">
     <element xsi:type="archimate:BusinessActor" name="Organization" id="id-0de2ac2f4f8c4b51a65a0f613e1cd9a6">
-      <documentation>Represents the enterprise or company.</documentation>
     </element>
     <element xsi:type="archimate:BusinessProcess" name="Digital Transformation Process" id="id-2c009afe05194b15bbef1a40757e3a87">
-      <documentation>Reconfiguring Offerings &amp; Value Propositions. Represents an internal operational change to business offerings.</documentation>
     </element>
     <element xsi:type="archimate:BusinessEvent" name="Digital Transformation" id="id-ba265376e7fc4c0786c35eb3ded2b6b1"/>
     <element xsi:type="archimate:Product" name="Current Product" id="id-a2106bfb690d49688993e5d341fc21a3"/>
@@ -36,31 +32,24 @@
   <folder name="Technology &amp; Physical" id="id-a7cf7a5064da49bf9ea57fe173ef0aab" type="technology"/>
   <folder name="Motivation" id="id-abcb551de3784df1ba91c8308353219e" type="motivation">
     <element xsi:type="archimate:Driver" name="Business Opportunities" id="id-cb2f29ea49de46ddac040e183e5d81ab">
-      <documentation>If seen as an internal trigger, it can be a Business Event. If seen as an external influencing factor, it can be a Driver.</documentation>
     </element>
     <element xsi:type="archimate:Assessment" name="Current Business Risks" id="id-f69d0e06d008468fa7794e434e27f1f5">
-      <documentation>Risks can be modeled as an Assessment entity, influencing strategy.</documentation>
     </element>
     <element xsi:type="archimate:Stakeholder" name="Stakeholder" id="id-02174570f02c4fc187869062363a55fe"/>
     <element xsi:type="archimate:Goal" name="Organization's Goal" id="id-e4319450bad24f0ba059540619952507"/>
     <element xsi:type="archimate:Value" name="Current Value Proposition" id="id-fc51be61457d445b96ddcc8e751aefbb">
-      <documentation>The relative worth, utility, or importance of a core element or an outcome.</documentation>
     </element>
     <element xsi:type="archimate:Value" name="Resulting Value Proposition" id="id-7fe9393fd3814b40856e4a47bdbad665"/>
     <element xsi:type="archimate:Assessment" name="Expected/Unexpected Resulting Business Risk" id="id-650909f9019a471682dd762b060feead"/>
     <element xsi:type="archimate:Assessment" name="Resulting Business Risk" id="id-d5991fe9342b47ce8b6b607fa0bdadda">
-      <documentation>it’s the result of analyzing the situation and identifying risk</documentation>
     </element>
     <element xsi:type="archimate:Driver" name="Culture" id="id-09e46cf151604775ad603c4f6132b1a7"/>
     <element xsi:type="archimate:Stakeholder" name="Top Management" id="id-373d2f2b2eec48f6a17502bafad60722">
-      <documentation>If you want to show why they influence goals, keep them as Stakeholders in the Motivation layer.</documentation>
     </element>
     <element xsi:type="archimate:Stakeholder" name="Dedicated Risk Management" id="id-9652125129154bc8be44001bd84915ee">
-      <documentation>If you want to show why they influence goals, keep them as Stakeholders in the Motivation layer.</documentation>
     </element>
     <element xsi:type="archimate:Requirement" name="Stakeholder Needs" id="id-989af4b98a3a452db787803a8109562f"/>
     <element xsi:type="archimate:Outcome" name="Current Organization's Offering" id="id-7576df9cb10f4491a4639d0e70468760">
-      <documentation>In Motivation terms, these might be Outcomes if you want to show them as end results (“We have an existing offering” vs. “We aim for a digital offering”).</documentation>
     </element>
     <element xsi:type="archimate:Outcome" name="Digital Organization's Offering" id="id-289d9c6250d043659ddd0bf5879130a9"/>
     <element xsi:type="archimate:Principle" name="Organization's Principles" id="id-017143ac138d40c8ad79880f69e6b747"/>
@@ -408,9 +397,6 @@
           <bendpoint startX="640" startY="12" endX="-38" endY="213"/>
         </sourceConnection>
       </child>
-      <documentation>O stakeholder identifca necessidades de negocio e define metas para a organização
-Uma estrategia para atingir o ojbectivo pode passar por uma DT
-</documentation>
     </element>
   </folder>
 </archimate:model>
